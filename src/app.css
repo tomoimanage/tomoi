@@ -39,6 +39,8 @@ body {
   font-family: "PyeojinGothic", sans-serif;
   color: var(--black);
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 h1,

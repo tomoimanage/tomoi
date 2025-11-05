@@ -36,7 +36,7 @@ ol[role="list"] {
 body {
   min-height: 100vh;
   line-height: 1.5;
-  font-family: "Apple SD Gothic Neo", sans-serif;
+  font-family: "PyeojinGothic", sans-serif;
   color: var(--black);
   font-size: 16px;
 }
@@ -86,16 +86,40 @@ textarea:not([rows]) {
 }
 
 @font-face {
-  font-family: "Apple SD Gothic Neo";
-  src: url("/fonts/AppleSDGothicNeoR.woff2") format("woff2");
+  font-family: "PyeojinGothic";
+  src: url("/fonts/PyeojinGothic-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "PyeojinGothic";
+  src: url("/fonts/PyeojinGothic-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: "Apple SD Gothic Neo";
-  src: url("/fonts/AppleSDGothicNeoB.woff2") format("woff2");
+  font-family: "PyeojinGothic";
+  src: url("/fonts/PyeojinGothic-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "PyeojinGothic";
+  src: url("/fonts/PyeojinGothic-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "PyeojinGothic";
+  src: url("/fonts/PyeojinGothic-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: block;

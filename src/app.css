@@ -39,6 +39,8 @@ body {
   font-family: "PyeojinGothic", sans-serif;
   color: var(--black);
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -90,7 +92,7 @@ textarea:not([rows]) {
   src: url("/fonts/PyeojinGothic-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -98,7 +100,7 @@ textarea:not([rows]) {
   src: url("/fonts/PyeojinGothic-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -106,7 +108,7 @@ textarea:not([rows]) {
   src: url("/fonts/PyeojinGothic-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -114,7 +116,7 @@ textarea:not([rows]) {
   src: url("/fonts/PyeojinGothic-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -122,5 +124,5 @@ textarea:not([rows]) {
   src: url("/fonts/PyeojinGothic-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }

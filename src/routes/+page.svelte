@@ -1,4 +1,13 @@
-<h1>dev domain test</h1>
+<script lang="ts">
+  export let data: App.PageData;
+</script>
+
+<svelte:head>
+  <title>{data.seo?.title ?? "TOMOI"}</title>
+  <meta name="description" content={data.seo?.description ?? "main page description"} />
+</svelte:head>
+
+<h1>{data.seo.title}</h1>
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 <p>
   국가는 과학기술의 혁신과 정보 및 인력의 개발을 통하여 국민경제의 발전에 노력하여야 한다. 국가는
